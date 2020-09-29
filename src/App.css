@@ -1,0 +1,47 @@
+.box{
+  width:400px;
+  background-color: beige;
+  box-shadow: 0 0 10px gray;
+  margin:10px auto;
+  padding:5px 20px;
+}
+.head{
+  text-align: center;
+}
+.Bbox{
+  width:350px;
+  height:70px;
+  background-color: honeydew;
+  margin:5px auto;
+  box-shadow: 0 0 10px grey;
+  display:flex;
+  justify-content: space-around;
+}
+.historyList{
+  margin-left:0px;
+}
+.historyList li{
+  display:flex;
+  box-shadow: 0 0 10px gray;
+  padding:5px;
+  margin-top:4px;
+}
+.historyList .li_desc{
+  display:flex;
+  justify-content: space-between;
+  background-color: white;
+  width:300px;
+  padding-right:15px;
+}
+.historyList #cross{
+  background-color: white;
+}
+.historyList #cross img{
+  width:20px;
+  height:20px;
+}
+.formN input{
+  width:95%;
+  margin:5px;
+
+}
