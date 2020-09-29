@@ -7,8 +7,8 @@ const transactionReducer=((state,action)=>{
             if(action.count===1){
                 action.count=2
                 state.splice(action.key,1)
+                break
             }
-            break;
         }
         default:{
             return(state);

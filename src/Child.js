@@ -33,7 +33,6 @@ function Child(){
         setAmount(0);
     }
     const handleDeletion=(id)=>{
-        console.log(transactions)
         console.log(id);
         delTransaction({
             key:id,
