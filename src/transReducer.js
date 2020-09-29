@@ -9,11 +9,11 @@ const transactionReducer=((state,action)=>{
                 state.splice(action.key,1)
                 break
             }else{
-                return(state);
+                return(state)
             }
         }
         default:{
-            return(state);
+            return(state)
         }
     }
 })
