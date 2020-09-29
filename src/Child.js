@@ -71,7 +71,7 @@ function Child(){
                      <input type='number' value={newAmount} placeholder='Enter Amount' name='amount' onChange={(ev)=>setAmount(ev.target.value)} required />
                  </label>
                  <br/>
-                 <input type='submit' value='Add Transaction' />
+                 <input type='submit' value='Add Transactions' />
              </form>
         </div>
     );
