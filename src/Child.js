@@ -55,7 +55,7 @@ function Child(){
                  {transactions.map((transObj,index)=>{
                      //setCount(index);
                      return(<li key={index}><span className='li_desc'><span>{transObj.desc}</span><span>{transObj.amount}
-                     </span></span><a onClick={()=>handleDeletion(index)}><span id="cross"><img src='./cross.png' alt='Del'></img></span></a></li>)
+                     </span></span><button onClick={()=>handleDeletion(index)}><span id="cross"><img src='./cross.png' alt='Del'></img></span></button></li>)
         
                  })}
              </ul>
