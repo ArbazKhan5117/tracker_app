@@ -33,5 +33,5 @@ jobs:
       - name: Installing Surge
         run: sudo npm install surge --global
       - name: Deploying using surge
-        run: surge ./build http://arbaz_tracker_app.surge.sh/ --token ${{ secrets.SURGE_TOKEN }}
+        run: surge ./build http://arbaz_tracker_app1.surge.sh/ --token ${{ secrets.SURGE_TOKEN }}
 
