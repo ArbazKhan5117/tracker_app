@@ -38,7 +38,7 @@ function Child(){
             key:id,
             count:1
         });
-        //console.log(transactions);
+        console.log(transactions);
        //return(transactions);
     }
     return(
