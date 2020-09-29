@@ -32,7 +32,8 @@ function Child(){
         setDesc('');
         setAmount(0);
     }
-    const handleDeletion=(id)=>{
+    const handleDeletion=(event,id)=>{
+        event.preventDefault();
         console.log(id);
         delTransaction({
             key:id,
@@ -54,7 +55,7 @@ function Child(){
                  {transactions.map((transObj,index)=>{
                      //setCount(index);
                      return(<li key={index}><span className='li_desc'><span>{transObj.desc}</span><span>{transObj.amount}
-                     </span></span><button onClick={()=>handleDeletion(index)}><span id="cross"><img src='./cross.png' alt='Del'></img></span></button></li>)
+                     </span></span><button onClick={(event)=>handleDeletion(event,index)}><span id="cross"><img src='./cross.png' alt='Del'></img></span></button></li>)
         
                  })}
              </ul>
